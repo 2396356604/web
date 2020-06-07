@@ -1,0 +1,363 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+a{  
+	text-decoration: none;
+}
+li{
+    list-style: none; 
+}
+#ent{
+    width: 100%;
+    height: 3200px;
+    background:url(./img/brg1.jpg);
+}
+#box1{
+    width: 1200px;
+    height: 101px;
+    margin: 0 auto;
+}
+.p1{
+    font-size: 40px;
+    font-family:Microsoft YaHei;
+    font-weight:bold;
+    color:rgba(255,57,18,1);
+    float: left;
+    padding-top: 30px;
+    padding-right: 80px;
+}
+.net{
+    font-size:18px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(5,5,5,1);
+    float: left;
+    margin: 0 auto;
+}
+.a1{
+    padding-top: 42px;
+    padding-bottom: 10px;
+}
+.a2{
+    padding-left: 50px;
+    padding-top: 42px;
+}
+.a3{
+    padding-left: 50px;
+    padding-top: 42px;
+}
+.a4{
+    padding-left: 50px;
+    padding-top: 42px;
+}
+.a5{
+    padding-left: 50px;
+    padding-right: 80px;
+    padding-top: 42px;
+}
+.form .search{
+    width:200px;
+    height:40px;
+    border:1px solid rgba(255,57,188,1);
+    float: left;
+}
+.form .submit{
+    width:50px;
+    height:42px;
+    border:1px solid rgba(255,57,188,1);
+    background:rgba(255,57,188,1) url(./img/1.png) no-repeat;
+    background-position: center;
+    vertical-align: bottom;
+    float: left;
+}
+.form{
+    padding-top: 31px;
+    display: inline-block;
+    float: left;
+
+}
+.a6{
+    font-size:14px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    padding-top: 44px;
+    float: left;
+    padding-left: 50px;
+}
+#box2{
+	width: 1200px;
+    height: 540px;
+    margin: 0 auto;
+}
+.text1{
+	font-size:25px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(244,102,102,1);
+    font-weight:bold;
+    padding-bottom: 10px;
+}
+.box2{
+	height: 500px;
+	width:380px;
+    float: left;
+    margin-right: 20px;
+    background:rgba(255,255,255,1);
+}
+.box2-img1{
+	float: left;
+	display:block;
+    position: relative;
+}
+.text2{
+	font-size:14px;
+    color:#916422;
+    line-height:30px;
+}
+.txt1{
+	line-height:24px;
+	display: inline;
+}
+#box3{
+    width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+}
+.txt2{
+    font-size:14px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    display: inline;
+    float: right;
+    padding: 10px;
+}
+.box3{
+    width: 230px;
+    height: 400px;
+    margin-right: 10px;
+    float: left;
+    position: relative;
+
+}
+.box3-txt{
+    position: absolute;
+    color:rgba(255,255,255,1);
+    bottom: 15%;
+    background:rgba(0,0,0,0.3);
+}
+#box4{
+    width: 1200px;
+    height: 325px; 
+    margin: 0 auto;
+}
+.box4>ul>li{
+    float: left;
+    margin-right: 10px;
+}
+#box5{
+    width: 1200px;
+    height: 365px;  
+    margin: 0 auto;
+}
+.box5{
+    width: 230px;
+    margin-right: 10px;
+    float: left;
+    position: relative;
+}
+.box5-txt{
+    position: absolute;
+    color:rgba(255,255,255,1);
+    bottom: 5%;
+    background:rgba(0,0,0,0.3);
+}
+#box6{
+    width: 1200px;
+    height: 400px; 
+    margin: 0 auto;
+}
+.p2{
+    font-size: 30px;
+    font-family:Microsoft YaHei;
+    font-weight:bold;
+    color:rgba(255,57,188,1);
+    float: left;
+    padding-top: 30px;
+    padding-right: 80px;
+}
+.box6-1{
+    width: 1200px;
+    height: 101px;
+    margin: 0 auto;
+}
+.box6-ul>ul>li{
+    float: left;
+    padding-left: 50px;
+    padding-top: 42px;
+    margin-bottom: 17px;
+}
+.box6-ul>ul>li a{
+    font-size:18px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(5,5,5,1);
+}
+.box6-a{
+    font-size:14px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    padding-top: 44px;
+    float: right;
+    padding-right: 10px;
+}
+.box6-img{
+    width: 390px;
+    height: 300px;
+    margin-right: 10px;
+    float: left;
+    position: relative;
+    background:rgba(255,255,255,1);
+
+}
+.box6-text2{
+    font-size:40px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(255,255,255,1);
+    position: absolute;
+    background:rgba(25,255,255,1);
+    right: 1%;
+    top: 2%;
+    
+}
+.box6-text1{
+    font-size:40px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+   color:rgba(255,255,255,1) ;
+    position: absolute;
+    right: 1%;
+    top: 2%;
+    background:rgba(180,160,0,1);
+}
+.dady{
+    font-size:40px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    position: absolute;
+    background:rgba(255,255,255,1);
+    right: 1%;
+    bottom: 28%;
+}
+.box6-txt1{
+    font-size:30px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+    margin-left: 10px;
+}
+.box6-txt2{
+    font-size:20px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(102,102,102,1);
+    margin-left: 10px;
+}
+#box7{
+    width: 1200px;
+    height: 600px; 
+    margin: 0 auto;
+}
+.box7-ul>ul>li{
+    float: left;
+    padding-left: 150px;
+    padding-top: 42px;
+    margin-bottom: 17px;
+}
+.box7-ul>ul>li a{
+    font-size:28px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color:rgba(200,35,25,1);
+}
+.box7-img{
+    width: 235px;
+    height: 440px;
+    margin-right: 5px;
+    float: left;
+   /*  position: relative; */
+    background:rgba(255,255,255,1);
+}
+.box7-img p{
+    font-size:14px;
+    color:rgba(102,102,102,1);  
+    display: inline;
+}
+.box7-img a{
+    font-size:14px;
+    color:rgba(102,102,102,1);  
+    display: inline;
+    float: right;
+}
+#box8{
+    width: 1200px;
+    height: 120px;
+    margin: 0 auto;
+}
+.box8-p{
+    font-size:28px;
+    color:rgba(102,10,10,1);
+    text-align: center;
+    line-height:120px;
+    height: 120px;
+    margin: auto;
+}
+.box8-p1{
+    font-size:18px;
+    color:rgba(102,100,102,1);
+    float: right;
+    line-height:180px;
+}
+#box9{
+    width: 1200px;
+    height: 320px;
+    margin: 0 auto;
+    position: relative;
+}
+.bn1{
+    height: 320px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
+.box9-img{
+    height: 320px;
+    width: 1200px;
+
+}
+.box9-ul>ul>li{
+    font-size:14px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    line-height:44px;
+    padding-left: 20px;
+  /*   color: rgba(255,255,255,1) */
+}
+.box9-ul{
+    height: 320px;
+    width:190px;
+    background:rgba(0,0,0,0.3);
+    position: absolute;
+    left: 0%;
+    top: 0%;
+}
+.box9-ul a{
+    font-size:14px;
+    font-family:Microsoft YaHei;
+    font-weight:400;
+    color: rgba(255,255,255,1)
+} 
